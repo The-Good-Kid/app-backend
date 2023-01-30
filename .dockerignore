@@ -1,0 +1,12 @@
+.git
+node_modules
+dist
+.eslint*
+.prettier*
+.gitignore
+.gitAttributes
+.husky
+Dockerfile
+.dockerignore
+docker-compose.yml
+READNE.md
