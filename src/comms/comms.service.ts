@@ -4,10 +4,10 @@ import { Twilio } from 'twilio';
 @Injectable()
 export class CommsService {
     private twilioClient: Twilio;
-    private serviceSid = "VA32282dfb9d7e90c88c38fa5450a2a995";
+    private serviceSid = "************";
     constructor(
     ) {
-        this.twilioClient = new Twilio("ACc995c848c0f5c8903a53dabda3f70431", "dc4f4cf9601e75dd00f30b071645b329");
+        this.twilioClient = new Twilio("***", "**");
     }
 
     async initiatePhoneNumberVerification(phoneNumber: string) {
